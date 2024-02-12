@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:ital,wght@0,500;1,300&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --body-font-family: 'Poppins Sans', sans-serif;
+    --paragraf-colors: rgba(143,149,165,1);
+    --container-max-width: 1120px;
+}
+.body{
+    font-family: var(--body-font-family);
+}
+.container{
+    width: var(--container-max-width);
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    align-items: center;
+}
+.container_listes{
+    display: flex;
+    gap: 30px;
+}
+.list_item{
+    color: rgba(38,50,56,1);
+    font-size: 20px;
+    font-weight: 500;
+    font-family:  var(--body-font-family);
+}
+.btn{
+    font-size: 24PX;
+    width: 220px;
+    height: 70px;
+    border: 2px solid rgba(38,50,56,1);
+    background: transparent;
+    border-radius: 5px;
+
+}
+.container_btn{
+    color: #fff;
+    transition: 1s;
+    color: rgba(38,50,56,1);
+
+}
+.container_btn :hover{
+    color: #fff;
+    transition: 1s;
+    background: rgba(38,50,56,1);
+
+
+}
+.header_page{
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 110px;
+}
+.header_text{
+    font-weight: 600;
+    font-size: 44px;
+}
+.header_paragraf{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--paragraf-colors);
+    margin-bottom: 20px;
+}
+.header_left_page{
+    width: 420px;
+    position: relative;
+}
+.header_position{
+    position: absolute;
+    top: 50px;
+    right: 0;
+
+}
+.header_btn{
+    font-size: 28px;
+    font-weight: 400;
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    background: rgba(38,50,56,1);
+    color: #fff;
+    transition: 1s;
+}
+.header_btn:hover {
+    background: #fff;
+    transition: .1s;
+    color: rgba(38,50,56,1);
+
+}
+.header_right_page{
+    width: 400px;
+}
+.header_image{
+    width: 100%;
+    padding-top: 20px;
+}
